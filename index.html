@@ -10,8 +10,8 @@
     <script src="https://kit.fontawesome.com/fff25c06fa.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav class="flex justify-evenly items-center m-1 p-1.5">
+    <header class="sticky top-0">
+        <nav class="flex justify-evenly items-center m-1 p-1.5 ">
             <img src="./images/logo2.png" alt="">
             <div class="flex gap-x-10 list-none">
                 <li><a href="">Home</a><i class="fa-sharp fa-solid fa-greater-than pt-0.5"></i></li>
@@ -23,5 +23,18 @@
             <button class="bg-[#B68C5A] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Free Consultation</button>
         </nav>
     </header>
+    <main>
+        <section class="bg-[url(/images/banner.png)] bg-cover m-12 h-fit">
+            <h1 class="text-8xl text-center text-white p-12">We Provide Effective
+                <br>Legal Solutions</h1>
+                <p class="text-white text-center">There are many variations of passages of Lorem Ipsum available,<br> 
+                    but the majority have suffered alteration in some form, by injected humour.
+                </p>
+                <div class="text-center p-12">
+                    <input class="w-100 border-2 border-white bg-white placeholder-indigo-950 p-3 rounded-2xl" type="" placeholder="Search your services">
+                    <button class="p-3 ms-1.5 bg-[#B68C5A] hover:bg-blue-700 text-white font-bold rounded">Search</button>
+                </div>
+        </section>
+    </main>
 </body>
 </html>
